@@ -10,7 +10,7 @@ const useWindowSize = () => {
         const handleResize = () => {
             setWindowSize({
                 width: window.innerWidth,
-                height: windowSize.innerHeight
+                height: window.innerHeight
             })
         }
 
